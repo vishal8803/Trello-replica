@@ -24,9 +24,13 @@ Application Link: - https://trello-replica1.netlify.app/
 
 ## Screenshots
 
-- Add new card/ list
-![App Screenshot](./public/add.mp4)
 
--Drag and drop
+
+
+
+- Add new card/ list <br/><br/>
+![App Screenshot](./public/add.gif)
+
+- Drag and drop <br/><br/>
 ![App Screenshot](./public/drag-n-drop.gif)
 
