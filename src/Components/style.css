@@ -1,0 +1,142 @@
+
+.navigation_btn {
+  margin-right: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.navigation_btn:hover {
+  background-color: #4d7b96;
+  border-radius: 3px;
+}
+
+.dashboard_root_container{
+  background-color: #0079bf;
+  height: 100vh ;
+}
+
+.addAnotherList {
+  width: 272px;
+  margin-top: 2rem;
+  background: #3394cc;
+  border-radius: 3px;
+  margin-left: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.addAnotherList:hover {
+  background: #73b9e1;
+}
+
+.listNameInputBox {
+  width: 272px;
+  margin-top: 2rem;
+  border-radius: 3px;
+  margin-left: 2rem;
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+#addlistbtn {
+  font-size: 14px;
+  background-color: #0079bf;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 0.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#addlistbtn:hover {
+  background-color: #004269;
+}
+
+#closebtn {
+  margin-top: 10px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.all_list_items {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  overflow: hidden;
+}
+
+.list_container {
+  min-width: 272px;
+  width: 272px;
+  height: auto;
+  overflow-y: auto;
+  background-color: #ebecf0;
+  margin: 10px 4px;
+  border-radius: 3px;
+  padding: 10px 8px 8px;
+}
+
+.list_title_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  overflow-y: auto;
+}
+
+.list_title {
+  margin: 0;
+  color: #172b4d;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 4px 8px 10px;
+}
+
+.add_Card {
+  display: flex;
+  align-items: center;
+  color: #5e6c84;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.add_Card:hover {
+  background-color: #b6b7b9;
+}
+
+.card_task {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+  padding: 6px 8px 2px;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.task_message {
+  margin: 0 0 4px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172b4d;
+}
